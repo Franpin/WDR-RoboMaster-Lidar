@@ -1,0 +1,6 @@
+classes= 5
+train  = data/train.txt
+valid  = data/test.txt
+#difficult = data/difficult_2007_test.txt
+names = robomaster.names
+backup = backup/

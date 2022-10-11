@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-安配控-</title>
+    <!-- 引入一个小图标 -->
+    <link rel="icon" href="static/mask.ico">
+    <link rel="stylesheet" href="lib/jquery.fullPage.css">
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+</head>
+<body>
+    
+    <!-- 导航栏 -->
+    <div class="navBox">
+        <!-- <div class="navCover"></div> -->
+        <ul class="nav">
+            <li data-menuanchor="firstPage" class="active"><a href="#firstPage">首页</a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">项目简介</a></li>
+            <li data-menuanchor="thirdPage"><a href="#thirdPage">数据展示</a></li>
+            <li data-menuanchor="fourthPage"><a href="#fourthPage">视频展示</a></li>
+            <li data-menuanchor="fifthPage"><a href="#fifthPage">上传检测</a></li>
+        </ul>
+    </div>
+
+    <!-- 主页 -->
+    <div id="mainBox">
+        <!-- 第一屏 首页 -->
+        <div class="section active" id="one">
+            <div class="body">
+                <div class="column animated zoomInUp">
+                    <div class="titleBox">
+                        <span class="title">安配控<br>----智能口罩佩戴计数技术</span>
+                    </div>
+                    <a href="#secondPage" class="start">开始体验</a>
+                </div>
+                <div class="column animated fadeInDown"></div>
+            </div>
+        </div>
+        <!-- 第二屏 项目简介 -->
+        <div class="section" id="two">
+            <div class="introBox">
+                <div class="title">
+                    <div class="titleText">项目简介</div>
+                    <div class="hfutLogo"></div>
+                </div>
+                <div class="intro"></div>
+            </div>
+        </div>
+        <!-- 第三屏 数据展示 -->
+        <div class="section" id="three">
+            <!-- 头部信息 -->
+            <div class="header">
+                <h1></h1>
+                <div class="showTime"></div>
+            </div>
+            <!-- 图表 -->
+            <div class="chartPanel line">
+                <h2>口罩佩戴人数统计
+                    <a href="javascript:;">2月</a>
+                    <a href="javascript:;">3月</a>
+                </h2>
+                <div class="chart"></div>
+            </div>
+        </div>
+        <!-- 第四屏 图片展示 -->
+        <div class="section" id="four">
+            <div class="videoBox">
+                <video src="videos/showVideo.mp4" id="showVideo" muted>
+                您的浏览器不支持video标签</video>
+            </div>
+            <div class="videoBg">
+                <div class="topDot"></div>
+                <div class="botDot"></div>
+            </div>
+            <div class="videoController">
+                <div class="showController">显示播放控件</div>
+                <div class="startPlay">开始播放</div>
+            </div>
+            
+        </div>
+        <!-- 第五屏 上传检测 -->
+        <div class="section" id="five">
+            <div class="body">
+                <!-- <div class="uploadImg"></div> -->
+                <!-- <div class="waitingImg"></div> -->
+                <img src="static/uploadBg.png" class="uploadImg">
+                <img src"static/waitingBg.png" class="waitingImg">
+            </div>
+            <a href="javascript:;" class="file">选择文件
+                <input type="file" id="file" required>
+            </a>
+            <a href="javascript:;" class="upload">显示结果</a>
+        </div>
+    </div>
+
+</body>
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/flexible.js"></script>
+    <script src="lib/echarts.min.js"></script>
+    <script src="lib/jquery.fullPage.js"></script>
+    <script src="lib/jquery.imgbox.pack.js"></script>
+    <script src="js/index.js"></script>
+</html>

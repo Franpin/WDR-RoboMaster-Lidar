@@ -1,0 +1,1 @@
+python3 darknet_video.py --input=robomaster.mp4 --config_file=yolov4-tiny-rm.cfg --weights=yolov4-tiny-rm_last.weights --data_file=robomaster.data --thresh=0.6

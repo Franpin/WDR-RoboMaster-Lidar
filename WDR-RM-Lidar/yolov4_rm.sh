@@ -1,0 +1,1 @@
+python3 darknet_images.py --input=rm.jpg --config_file=yolov4-rm.cfg --weights=yolov4-rm_10000.weights --data_file=robomaster.data

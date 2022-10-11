@@ -1,0 +1,1 @@
+python3 darknet_video.py --input=car.mp4 --out_filename=car1.mp4 --thresh=0.95
